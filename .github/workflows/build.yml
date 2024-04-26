@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
@@ -13,6 +13,22 @@ jobs:
 
     - name: Checkout Repository
       uses: actions/checkout@v2
+
+    - uses: jirutka/setup-alpine@v1
+      with:
+        branch: v3.15
+
+    - run: cat /etc/alpine-release
+      shell: alpine.sh {0}
+
+    - name: Install Dependencies
+      run: |
+        apk add git wget make gcc g++ curl extra-cmake-modules \
+          bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev \
+          kscreenlocker-dev qt5-qtsensors-dev qt5-qtquickcontrols \
+          pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev \
+          xf86-input-libinput-dev kidletime5-dev kdecoration-dev \
+          kwin-dev libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 
     - name: Build
       run: |
