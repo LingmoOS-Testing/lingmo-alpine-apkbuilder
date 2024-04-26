@@ -37,7 +37,7 @@ jobs:
       run: |
         echo "Now running as"
         whoami
-        abuild-keygen -a -i
+        abuild-keygen -ain
         for dir in $(ls -d */ | grep -v '.github/'); do
           echo "Working in $dir..."
           cd $dir
