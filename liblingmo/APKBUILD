@@ -12,7 +12,7 @@ license="GPL"
 source="https://github.com/Intro-iu/liblingmo/releases/download/v$pkgver/liblingmo.tar.xz"
 
 build() {
-        echo "Compiling $pkgname"
+    echo "Compiling $pkgname"
     mkdir -pv "$srcdir/$pkgname/build" && cd "$srcdir/$pkgname/build"
     cmake -DCMAKE_INSTALL_PREFIX=/usr ..
     make || return 1
