@@ -30,6 +30,7 @@ jobs:
       run: |
         echo "Now running as"
         whoami
+        addgroup runner abuild
       shell: alpine.sh --root {0}
 
     - name: Build
