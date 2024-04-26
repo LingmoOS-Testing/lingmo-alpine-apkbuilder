@@ -27,9 +27,9 @@ jobs:
 
     - name: Build
       run: |
-        find . -type d -print0 | while IFS= read -r -d '' dir; do
-          echo "Working in $dir"
-          cd "$dir"
+        for dir in $(ls -d */ | grep -v '.github/'); do
+          echo "Working in $dir..."
+          cd $dir
           abuild checksum && abuild -r
           cd ..
         done
