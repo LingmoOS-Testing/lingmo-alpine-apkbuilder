@@ -1,5 +1,5 @@
 # lingmo-alpine-apkbuilder
 Application builder for Alpine Linux to enable Lingmo's desktop &amp; software
 
-## Current Support For:
+## Currently Support For:
 - x86_64
