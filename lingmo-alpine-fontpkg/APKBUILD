@@ -1,5 +1,5 @@
 # Maintainer: Intro <intro-iu@outlook.com>
-pkgname=lingmo-alpine-fontpack
+pkgname=lingmo-alpine-fontpkg
 arch="all"
 depends=""
 depends_dev=""
@@ -10,10 +10,10 @@ makedepends=""
 
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/LingmoOS-Testing/lingmo-alpine-fontpack/releases/download/v$pkgver/source.tar.xz"
+source="https://github.com/LingmoOS-Testing/lingmo-alpine-fontpkg/releases/download/v$pkgver/lingmo-alpine-fontpkg.tar.xz"
 
 build() {
-	echo "Compiling $pkgname"
+        echo "Compiling $pkgname"
     mkdir -pv "$srcdir/$pkgname/build" && cd "$srcdir/$pkgname/build"
     cmake ..
     make || return 1
@@ -24,4 +24,3 @@ package() {
     cd "$srcdir/$pkgname/build"
     make DESTDIR="$pkgdir" install
 }
-
