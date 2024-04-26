@@ -18,7 +18,7 @@ jobs:
       with:
         branch: latest-stable
         packages: >
-          git wget make gcc g++ curl extra-cmake-modules 
+          abuild git wget make gcc g++ curl extra-cmake-modules 
           bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev 
           kscreenlocker-dev qt5-qtsensors-dev qt5-qtquickcontrols 
           pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev 
