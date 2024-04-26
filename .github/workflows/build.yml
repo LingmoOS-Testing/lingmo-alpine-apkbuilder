@@ -14,7 +14,8 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - uses: jirutka/setup-alpine@v1
+    - name: Setup
+      uses: jirutka/setup-alpine@v1
       with:
         branch: latest-stable
         packages: >
@@ -25,8 +26,16 @@ jobs:
           xf86-input-libinput-dev kidletime5-dev kdecoration-dev 
           kwin-dev libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 
+    - name: Initialize
+      run: |
+        echo "Now running as"
+        whoami
+      shell: alpine.sh --root {0}
+
     - name: Build
       run: |
+        echo "Now running as"
+        whoami
         for dir in $(ls -d */ | grep -v '.github/'); do
           echo "Working in $dir..."
           cd $dir
