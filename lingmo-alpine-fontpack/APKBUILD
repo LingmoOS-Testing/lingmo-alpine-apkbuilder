@@ -5,12 +5,12 @@ depends=""
 depends_dev=""
 pkgdesc="Some common fonts for Lingmo-Alpine"
 pkgrel=0
-pkgver=1.0
+pkgver=0.1.0
 makedepends=""
 
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/LingmoOS-Testing/lingmo-alpine-fontpack/archive/refs/tags/v0.1.0.tar.gz"
+source="https://github.com/LingmoOS-Testing/lingmo-alpine-fontpack/releases/download/v$pkgver/source.tar.xz"
 
 build() {
 	echo "Compiling $pkgname"
