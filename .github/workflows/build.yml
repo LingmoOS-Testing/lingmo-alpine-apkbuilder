@@ -26,11 +26,10 @@ jobs:
           xf86-input-libinput-dev kidletime5-dev kdecoration-dev 
           kwin-dev libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 
-    - name: Initialize_1
+    - name: Initialize
       run: |
-        echo "Now running as ALPINE"
-        ls -la /home/runner/
-        ls -la /home/runner/work/
+        echo "Now running as"
+        whoami
         addgroup runner abuild
       shell: alpine.sh --root {0}
 
@@ -38,7 +37,11 @@ jobs:
       run: |
         echo "Now running as"
         whoami
+        ls -la /home/runner/
+        ls -la /home/runner/work/
+        
         abuild-keygen -ain
+        
         while IFS= read -r dir; do
           echo "Working in $dir..."
           cd "$dir"
