@@ -1,15 +1,15 @@
 # Maintainer: Intro <intro-iu@outlook.com>
-pkgname=lingmo-core
+pkgname=LingmoUI
 arch="x86_64"
 depends=""
 depends_dev=""
-pkgdesc="System backend and start session and more."
+pkgdesc="LingmoUI is a GUI library based on QQC2 (Qt Quick Controls 2), every Lingmo application uses it."
 pkgrel=0
 pkgver=1.0.0
 makedepends=""
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/Intro-iu/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
+source="https://github.com/Intro-iu/LingmoUI/releases/download/v$pkgver/LingmoUI.tar.xz"
 
 build() {
     echo "Compiling $pkgname"

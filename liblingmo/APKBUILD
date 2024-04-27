@@ -9,7 +9,7 @@ pkgver=1.0.0
 makedepends=""
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/Intro-iu/liblingmo/releases/download/v$pkgver/liblingmo.tar.xz"
+source="https://github.com/Intro-iu/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
 
 build() {
     echo "Compiling $pkgname"
