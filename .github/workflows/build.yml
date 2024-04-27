@@ -26,11 +26,11 @@ jobs:
           xf86-input-libinput-dev kidletime5-dev kdecoration-dev 
           kwin-dev libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 
-    - name: Initialize
+    - name: Initialize_1
       run: |
-        echo "Now running as"
-        whoami
-        ls -la
+        echo "Now running as ALPINE"
+        ls -la /home/runner/
+        ls -la /home/runner/work/
         addgroup runner abuild
       shell: alpine.sh --root {0}
 
