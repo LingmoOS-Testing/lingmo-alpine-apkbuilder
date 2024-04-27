@@ -1,7 +1,7 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-kwin-plugins
 arch="x86_64"
-depends="~/packages/lingmo-alpine-apkbuilder/x86_64/lingmo-kwin*.apk"
+depends="/home/runner/packages/lingmo-alpine-apkbuilder/x86_64/lingmo-kwin-1.0.0-r0.apk"
 depends_dev=""
 pkgdesc="KWin plugin for LingmoOS, which is a necessary component of LingmoOS."
 pkgrel=0
