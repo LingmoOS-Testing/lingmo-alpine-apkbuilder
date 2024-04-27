@@ -1,5 +1,5 @@
 # Maintainer: Intro <intro-iu@outlook.com>
-pkgname=lingmo-screenlocker
+pkgname=lingmo-kwin-plugins
 arch="x86_64"
 depends=""
 depends_dev=""
