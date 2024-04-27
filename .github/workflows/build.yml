@@ -44,6 +44,9 @@ jobs:
           cd "$dir"
           abuild checksum && abuild -r
           cd ..
+
+          ls -la ~/
+          ls -la packages
         done < pkgs
       shell: alpine.sh {0}
     
