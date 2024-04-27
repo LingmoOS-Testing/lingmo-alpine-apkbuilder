@@ -45,8 +45,7 @@ jobs:
           abuild checksum && abuild -r
           cd ..
 
-          ls -la ~/
-          ls -la packages
+          ls -la ~/packages/lingmo-alpine-apkbuilder/x86_64/
         done < pkgs
       shell: alpine.sh {0}
     
