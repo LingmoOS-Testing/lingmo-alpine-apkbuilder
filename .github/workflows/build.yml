@@ -37,9 +37,8 @@ jobs:
       run: |
         echo "Now running as"
         whoami
-        ls -la /home/runner/
-        ls -la /home/runner/work/
-        
+        ls -la /home/runner/work/lingmo-alpine-apkbuilder
+
         abuild-keygen -ain
         
         while IFS= read -r dir; do
