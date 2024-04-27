@@ -10,7 +10,7 @@ makedepends=""
 
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/Intro-iu/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
+source="https://github.com/LingmoOS-Testing/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
 
 build() {
     echo "Compiling $pkgname"
