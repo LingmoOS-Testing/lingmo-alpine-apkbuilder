@@ -23,7 +23,7 @@ jobs:
           bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev 
           kscreenlocker-dev qt5-qtsensors-dev qt5-qtquickcontrols 
           pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev 
-          xf86-input-libinput-dev kidletime5-dev kdecoration-dev 
+          xf86-input-libinput-dev kidletime5-dev kdecoration-dev kwin-dev
           libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 
     - name: Initialize
