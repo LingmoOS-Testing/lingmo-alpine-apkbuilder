@@ -1,0 +1,41 @@
+# Maintainer: Intro <intro-iu@outlook.com>
+pkgname=lingmo-kwin-withplugins
+arch="x86_64"
+depends="
+    plasma-framework5-dev
+    knewstuff5-dev
+    libxcvt-dev
+"
+depends_dev=""
+pkgdesc="KWin is an Window Manager with plugins for Xorg windowing systems (Wayland, X11) on Linux."
+pkgrel=0
+pkgver=1.0.0
+makedepends=""
+url="https://lingmo.org"
+license="GPL"
+source="
+    https://github.com/Intro-iu/lingmo-kwin/releases/download/v$pkgver/lingmo-kwin.tar.xz
+    https://github.com/Intro-iu/lingmo-kwin-plugins/releases/download/v$pkgver/lingmo-kwin-plugins.tar.xz
+"
+
+build() {
+    echo "Compiling lingmo-kwin"
+    mkdir -pv "$srcdir/lingmo-kwin/build" && cd "$srcdir/lingmo-kwin/build"
+    cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=/usr/lib ..
+    make -j4 || return 1
+
+    echo "Compiling lingmo-kwin-plugins"
+    mkdir -pv "$srcdir/lingmo-kwin-plugins/build" && cd "$srcdir/lingmo-kwin-plugins/build"
+    cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=/usr/lib ..
+    make -j4 || return 1
+}
+
+package() {
+    mkdir -pv "$pkgdir"
+
+    cd "$srcdir/lingmo-kwin/build"
+    make DESTDIR="$pkgdir" install
+
+    cd "$srcdir/lingmo-kwin-plugins/build"
+    make DESTDIR="$pkgdir" install
+}
