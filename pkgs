@@ -2,8 +2,7 @@ liblingmo
 lingmo-core
 lingmo-filemanager
 lingmo-fontpkg
-lingmo-kwin
-lingmo-kwin-plugins
+lingmo-kwin-withplugins
 lingmo-screenlocker
 lingmo-screenshots
 LingmoUI
