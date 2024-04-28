@@ -9,3 +9,8 @@ Application builder for Alpine Linux to enable Lingmo's desktop &amp; software
 - lingmo-core
 - lingmo-filemanager
 - lingmo-fontpkg
+- lingmo-kwin
+- lingmo-kwin-plugins
+- lingmo-screenlocker
+- lingmo-screenshots
+- LingmoUI
