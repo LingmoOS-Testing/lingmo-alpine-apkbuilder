@@ -7,7 +7,7 @@ depends="
     libxcvt-dev
 "
 depends_dev=""
-pkgdesc="KWin is an Window Manager with plugins for Xorg windowing systems (Wayland, X11) on Linux."
+pkgdesc="Lingmo-KWin is an Window Manager with plugins for Xorg windowing systems (Wayland, X11) on Linux."
 pkgrel=0
 pkgver=1.0.0
 makedepends=""
