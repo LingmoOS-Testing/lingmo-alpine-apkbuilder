@@ -1,8 +1,8 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-kwin
 arch="x86_64"
-depends=""
-depends_dev="kwin-dev"
+depends="kwin-dev"
+depends_dev=""
 pkgdesc="KWin is an Window Manager for Xorg windowing systems (Wayland, X11) on Linux."
 pkgrel=0
 pkgver=1.0.0
