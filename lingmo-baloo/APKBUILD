@@ -1,7 +1,7 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-baloo
 arch="x86_64"
-depends=""
+depends="kfilemetadata5-dev"
 depends_dev=""
 pkgdesc="Baloo is the file indexing and file search framework for KDE Plasma."
 pkgrel=0
