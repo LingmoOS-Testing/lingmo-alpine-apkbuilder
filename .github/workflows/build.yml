@@ -43,21 +43,8 @@ jobs:
         while IFS= read -r pkgs; do
           echo "Working in $pkgs..."
           cd "$pkgs"
-
-          dep=""
-          if [ -f dependence ]; then
-            dep=$(cat dependence)
-            doas apk add $dep
-          fi
-
           abuild checksum && abuild -r
-
-          if [ -n "$dep" ]; then
-            doas apk del $dep
-          fi
-
           cd ..
-
           ls -la /home/runner/packages/lingmo-alpine-apkbuilder/x86_64/
         done < pkgs
       shell: alpine.sh {0}
