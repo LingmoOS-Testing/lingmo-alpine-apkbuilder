@@ -1,7 +1,10 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-appmotor
 arch="x86_64"
-depends="libcap-dev"
+depends="
+    libcap-dev
+    mapplauncherd-dev
+"
 depends_dev=""
 pkgdesc="Optimize the speed of starting lingmo apps."
 pkgrel=0
