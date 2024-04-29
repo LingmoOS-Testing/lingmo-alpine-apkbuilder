@@ -20,7 +20,7 @@ jobs:
         branch: latest-stable
         packages: >
           doas abuild git tree wget make gcc g++ curl extra-cmake-modules 
-          bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev 
+          bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev
           kscreenlocker-dev qt5-qtsensors-dev qt5-qtquickcontrols 
           pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev 
           xf86-input-libinput-dev kidletime5-dev kdecoration-dev
