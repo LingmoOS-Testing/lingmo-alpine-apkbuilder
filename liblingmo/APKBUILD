@@ -1,7 +1,8 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=liblingmo
 arch="x86_64"
-depends="bluez-qt5-dev
+depends="
+    bluez-qt5-dev
     networkmanager-qt5-dev 
     modemmanager-qt5-dev 
     qt5-qtsensors-dev 
