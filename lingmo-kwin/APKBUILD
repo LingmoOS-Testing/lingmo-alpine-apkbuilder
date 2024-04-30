@@ -8,6 +8,9 @@ depends="
     kidletime5-dev
     kcmutils5-dev
     kpipewire-dev
+    kdecoration-dev
+    kscreenlocker-dev
+    lcms2-dev
 "
 depends_dev=""
 pkgdesc="KWin is an Window Manager for Xorg windowing systems (Wayland, X11) on Linux."
