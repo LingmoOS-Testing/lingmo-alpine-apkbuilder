@@ -6,6 +6,7 @@ depends="
     qt5-qtx11extras-dev
     polkit-qt-dev
     kwindowsystem-dev
+    kcoreaddons-dev
 "
 depends_dev=""
 pkgdesc="System backend and start session and more."
