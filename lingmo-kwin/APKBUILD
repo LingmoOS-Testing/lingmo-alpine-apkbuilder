@@ -2,20 +2,16 @@
 pkgname=lingmo-kwin
 arch="x86_64"
 depends="
-    hwdata-dev
-    lcms2-dev
-    libcap-dev
+    plasma-framework5-dev
+    knewstuff5-dev
     libxcvt-dev
     kidletime5-dev
     kcmutils5-dev
-    knewstuff5-dev
     kpipewire-dev
-    krunner-dev
     kdecoration-dev
     kscreenlocker-dev
-    kdoctools5-dev
-    plasma-framework5-dev
-    qt5-qtquickcontrols2-dev
+    lcms2-dev
+    libqtxdg-dev
 "
 depends_dev=""
 pkgdesc="KWin is an Window Manager for Xorg windowing systems (Wayland, X11) on Linux."
