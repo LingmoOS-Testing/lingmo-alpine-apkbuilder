@@ -30,6 +30,9 @@ jobs:
       run: |
         echo "Now running as"
         whoami
+        echo "" | sudo tee /etc/apk/repositories
+        echo 'http://mirrors.tuna.tsinghua.edu.cn/alpine/latest-stable/main' | sudo tee -a /etc/apk/repositories
+        echo 'http://mirrors.tuna.tsinghua.edu.cn/alpine/latest-stable/community' | sudo tee -a /etc/apk/repositories
         addgroup runner abuild
       shell: alpine.sh --root {0}
 
