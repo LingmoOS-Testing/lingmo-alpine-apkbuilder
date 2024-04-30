@@ -1,7 +1,7 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=liblingmo
 arch="x86_64"
-depends="bluez-dev qt5-qtquickcontrols2-dev libkscreen5-dev"
+depends="bluez-dev qt5-qtquickcontrols2-dev libkscreen5-dev kio5-dev"
 depends_dev=""
 pkgdesc="Lingmo File Manager, simple to use, beautiful, and retain the classic PC interactive design."
 pkgrel=0
