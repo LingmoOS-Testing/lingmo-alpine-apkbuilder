@@ -6,6 +6,7 @@ depends="
     knewstuff5-dev
     libxcvt-dev
     kidletime5-dev
+    kcmutils5-dev
 "
 depends_dev=""
 pkgdesc="KWin is an Window Manager for Xorg windowing systems (Wayland, X11) on Linux."
