@@ -5,6 +5,8 @@ depends="
     qt5-qtquickcontrols2-dev
     qt5-qtx11extras-dev
     polkit-qt-dev
+    kcoreaddons-dev
+    kidletime5-dev
     kwindowsystem5-dev
 "
 depends_dev=""
