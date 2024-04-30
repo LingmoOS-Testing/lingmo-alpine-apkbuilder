@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-dock
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtx11extras-dev
+"
 depends_dev=""
 pkgdesc="The program dock component of LngmoOS, which relies on LingmoUI."
 pkgrel=0
