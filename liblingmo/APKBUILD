@@ -5,8 +5,8 @@ depends="bluez-qt5-dev
     networkmanager-qt5-dev 
     modemmanager-qt5-dev 
     qt5-qtsensors-dev 
-    libpulse 
     qt5-qtquickcontrols2-dev 
+    pulseaudio-qt-dev
     libkscreen5-dev 
     kio5-dev"
 depends_dev=""
