@@ -2,7 +2,9 @@
 pkgname=lingmo-cursor-themes
 arch="x86_64"
 depends=""
-depends_dev=""
+depends_dev="
+    qt5-qtx11extras-dev
+"
 pkgdesc="Lingmo OS Cursor Themes"
 pkgrel=0
 pkgver=1.0.0
