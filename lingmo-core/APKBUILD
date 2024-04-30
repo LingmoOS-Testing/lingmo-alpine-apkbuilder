@@ -8,6 +8,9 @@ depends="
     kcoreaddons5-dev
     kidletime5-dev
     kwindowsystem5-dev
+    xorg-server-dev
+    xf86-input-libinput-dev 
+    xf86-input-synaptics-dev
 "
 depends_dev=""
 pkgdesc="System backend and start session and more."
