@@ -17,7 +17,7 @@ jobs:
     - name: Setup
       uses: jirutka/setup-alpine@v1
       with:
-        branch: latest-stable
+        branch: edge
         packages: >
           doas abuild git tree wget make gcc g++ curl extra-cmake-modules 
           bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev
@@ -30,9 +30,6 @@ jobs:
       run: |
         echo "Now running as"
         whoami
-        echo "" | sudo tee /etc/apk/repositories
-        echo 'http://mirrors.tuna.tsinghua.edu.cn/alpine/latest-stable/main' | sudo tee -a /etc/apk/repositories
-        echo 'http://mirrors.tuna.tsinghua.edu.cn/alpine/latest-stable/community' | sudo tee -a /etc/apk/repositories
         addgroup runner abuild
       shell: alpine.sh --root {0}
 
