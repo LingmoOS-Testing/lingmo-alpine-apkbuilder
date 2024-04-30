@@ -6,6 +6,7 @@ depends="
     kio5-dev
     kfilemetadata5-dev
     lmdb-dev
+    kidletime5-dev
 "
 depends_dev=""
 pkgdesc="Baloo is the file indexing and file search framework for KDE Plasma."
