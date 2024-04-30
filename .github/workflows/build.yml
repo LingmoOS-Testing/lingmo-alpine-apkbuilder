@@ -19,7 +19,7 @@ jobs:
       with:
         branch: edge
         packages: >
-          doas abuild git tree wget make extra-cmake-modules 
+          doas abuild git wget make extra-cmake-modules 
 
     - name: Initialize
       run: |
