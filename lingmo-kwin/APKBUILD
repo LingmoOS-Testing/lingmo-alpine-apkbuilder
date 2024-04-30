@@ -11,7 +11,7 @@ depends="
     kdecoration-dev
     kscreenlocker-dev
     lcms2-dev
-    qt6-qtbase
+    libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
 "
 depends_dev=""
 pkgdesc="KWin is an Window Manager for Xorg windowing systems (Wayland, X11) on Linux."
