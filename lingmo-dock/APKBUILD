@@ -2,7 +2,7 @@
 pkgname=lingmo-dock
 arch="x86_64"
 depends="
-    qt5-qtx11extras-dev
+    qt5-qtquickcontrols2-dev
 "
 depends_dev=""
 pkgdesc="The program dock component of LngmoOS, which relies on LingmoUI."
