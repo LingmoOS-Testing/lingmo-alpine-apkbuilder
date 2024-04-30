@@ -1,7 +1,7 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-appmotor
 arch="x86_64"
-depends="libcap-dev"
+depends="libcap-dev qt5-qtquickcontrols2-dev"
 depends_dev=""
 pkgdesc="Optimize the speed of starting lingmo apps."
 pkgrel=0

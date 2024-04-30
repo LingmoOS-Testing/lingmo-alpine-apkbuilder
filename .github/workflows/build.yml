@@ -19,12 +19,7 @@ jobs:
       with:
         branch: edge
         packages: >
-          doas abuild git tree wget make gcc g++ curl extra-cmake-modules 
-          bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev
-          qt5-qtsensors-dev 
-          pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev 
-          xf86-input-libinput-dev kidletime5-dev kdecoration-dev
-          libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
+          doas abuild git tree wget make curl extra-cmake-modules 
 
     - name: Initialize
       run: |
