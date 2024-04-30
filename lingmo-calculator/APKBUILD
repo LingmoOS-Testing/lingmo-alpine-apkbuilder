@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-calculator
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtquickcontrols-dev 
+"
 depends_dev=""
 pkgdesc="A simple calculator."
 pkgrel=0
