@@ -4,6 +4,7 @@ arch="x86_64"
 depends="
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
+    qt5-qttools-dev
 "
 depends_dev=""
 pkgdesc="Application launcher for Lingmo."
