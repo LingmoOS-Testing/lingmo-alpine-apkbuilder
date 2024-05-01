@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-texteditor
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtbase-dev
+"
 depends_dev=""
 pkgdesc="An easy-to-use and aesthetically pleasing text editor for Lingmo OS."
 pkgrel=0
