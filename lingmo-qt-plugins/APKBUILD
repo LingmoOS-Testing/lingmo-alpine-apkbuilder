@@ -2,9 +2,6 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-kcrash5-dev
-kdeclarative5-dev
-kglobalaccel5-dev
 ki18n5-dev
 kidletime5-dev
 knotifications5-dev
