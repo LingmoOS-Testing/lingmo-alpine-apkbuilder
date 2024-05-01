@@ -1,13 +1,16 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-qt-plugins
 arch="x86_64"
-depends="
+depends="bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev
+qt5-qtsensors-dev 
+pulseaudio-dev pkgconf xf86-input-synaptics-dev mpv-dev 
+xf86-input-libinput-dev kidletime5-dev kdecoration-dev
+libqtxdg-dev libdbusmenu-qt-dev syntax-highlighting5-dev
     kwindowsystem5-dev
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
     qt5-qtx11extras-dev
     libqtxdg-dev
-    libxcb-dev
     libdbusmenu-qt-dev
 "
 depends_dev=""
