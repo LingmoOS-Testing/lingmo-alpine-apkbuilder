@@ -8,7 +8,7 @@ depends="
     qt5-qtx11extras-dev
     libqtxdg-dev
     libdbusmenu-qt-dev
-    xcb-util-dev
+    libqtxdg-dev
 "
 depends_dev=""
 pkgdesc="Unify Qt application style of LingmoOS."
