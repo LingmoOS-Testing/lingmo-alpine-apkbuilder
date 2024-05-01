@@ -3,9 +3,11 @@ pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
     kwindowsystem5-dev
+    py3-ewmh
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
     qt5-qtx11extras-dev
+    libqtxdg-dev
     libdbusmenu-qt-dev
 "
 depends_dev=""
