@@ -2,9 +2,7 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-ki18n5-dev
 kidletime5-dev
-knotifications5-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
