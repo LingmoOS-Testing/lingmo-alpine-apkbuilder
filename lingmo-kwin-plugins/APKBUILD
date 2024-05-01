@@ -4,6 +4,7 @@ arch="x86_64"
 depends="
     kwin
     kcoreaddons5-dev
+    kdecoration-dev
     kwindowsystem5-dev
     kconfig5-dev
     qt5-qtbase-dev
