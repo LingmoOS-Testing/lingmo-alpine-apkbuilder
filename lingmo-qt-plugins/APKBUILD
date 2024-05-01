@@ -3,7 +3,6 @@ pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
 
-xcb-util-renderutil-dev
 xcb-util-wm-dev
 
     kwindowsystem5-dev
