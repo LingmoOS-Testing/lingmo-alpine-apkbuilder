@@ -12,10 +12,7 @@ depends="
     qt5-qttools-dev
     
     
-glib-dev
-gtk+3.0-dev
 harfbuzz-dev
-icu-dev
 libb2-dev
 "
 depends_dev=""
