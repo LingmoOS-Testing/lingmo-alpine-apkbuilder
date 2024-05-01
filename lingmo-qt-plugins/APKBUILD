@@ -3,7 +3,9 @@ pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
 
-phonon-qt5
+phonon-qt6
+qt6-qt5compat-dev
+qt6-qtdeclarative-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
