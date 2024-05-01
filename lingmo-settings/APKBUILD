@@ -12,28 +12,16 @@ depends="
     qt5-qttools-dev
     
   
-openssl-dev
-pcre2-dev
-pkgconf
-qt6-qtbase
-qt6-qtbase-mysql
-qt6-qtbase-odbc
-qt6-qtbase-postgresql
-qt6-qtbase-sqlite
-qt6-qtbase-x11
-sqlite-dev
-tslib-dev
-unixodbc-dev
-vulkan-headers
-vulkan-loader-dev
-wayland-dev
-xcb-util-cursor-dev
-xcb-util-dev
-xcb-util-image-dev
-xcb-util-keysyms-dev
-xcb-util-renderutil-dev
-xcb-util-wm-dev
-zlib-dev
+libinput-dev
+libjpeg-turbo-dev
+libpng-dev
+libpq-dev
+libproxy-dev
+libstdc++
+libxkbcommon-dev
+mariadb-dev
+mesa-dev
+musl
 "
 depends_dev=""
 pkgdesc="The system settings application for LingmoOS uses LingmoUI as the interface style."
