@@ -5,6 +5,7 @@ depends="
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
     qt5-qttools-dev
+    syntax-highlighting5-dev 
 "
 depends_dev=""
 pkgdesc="An easy-to-use and aesthetically pleasing text editor for Lingmo OS."
