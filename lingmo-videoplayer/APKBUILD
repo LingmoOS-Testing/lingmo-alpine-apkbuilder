@@ -1,7 +1,11 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-videoplayer
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtbase-dev
+    qt5-qtquickcontrols2-dev
+    qt5-qttools-dev
+"
 depends_dev=""
 pkgdesc="Open source video player built using Qt/QML and libmpv."
 pkgrel=0
