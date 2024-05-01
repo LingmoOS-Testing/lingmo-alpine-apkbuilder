@@ -2,7 +2,7 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-    bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev kscreenlocker-dev qt5-qtsensors-dev qt5-qtquickcontrols pulseaudio-dev pkgconf 
+    bluez-qt5-dev networkmanager-qt5-dev modemmanager-qt5-dev mapplauncherd-dev kscreenlocker-dev 
     kwindowsystem5-dev
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
