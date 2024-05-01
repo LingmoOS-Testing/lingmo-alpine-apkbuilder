@@ -3,8 +3,7 @@ pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
 
-kconfig5-dev
-kcoreaddons5-dev
+libcanberra-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
