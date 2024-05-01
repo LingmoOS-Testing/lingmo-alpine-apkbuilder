@@ -6,6 +6,7 @@ depends="
     qt5-qtdeclarative-dev
     qt5-qtquickcontrols2-dev
     qt5-qtx11extras-dev
+    qt5-qttools-dev
 "
 depends_dev=""
 pkgdesc="Terminal emulator using LingmoUI as interface style on LingmoOS."
