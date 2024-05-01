@@ -5,9 +5,6 @@ depends="
 
 kconfig5-dev
 kcoreaddons5-dev
-libcanberra-dev
-phonon-dev
-qt5-qtspeech-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
