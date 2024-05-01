@@ -57,6 +57,5 @@ jobs:
         name: Release
         files: |
           dirpkg.html
-          /home/runner/rootfs/alpine-v3.19-x86_64/etc/apk/keys/runner-*.rsa.pub
           /home/runner/rootfs/alpine-v3.19-x86_64/home/runner/packages/lingmo-alpine-apkbuilder/x86_64/*.apk
       
