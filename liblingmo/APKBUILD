@@ -8,7 +8,7 @@ depends="
     qt5-qtsensors-dev 
     qt5-qtquickcontrols2-dev 
     pulseaudio-qt-dev
-    libkscreen5-dev 
+    libkscreen-dev 
     kio5-dev
 "
 depends_dev=""
