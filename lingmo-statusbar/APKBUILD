@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-statusbar
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtbase-dev
+"
 depends_dev=""
 pkgdesc="The status bar at the top displays the current status of the system, such as time, system tray, etc."
 pkgrel=0
