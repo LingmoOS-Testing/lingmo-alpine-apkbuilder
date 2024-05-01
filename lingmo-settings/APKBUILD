@@ -2,7 +2,7 @@
 pkgname=lingmo-settings
 arch="x86_64"
 depends="
-    icu-dev icu 
+    icu-dev
 
     kconfig5-dev
     modemmanager-qt5-dev 
