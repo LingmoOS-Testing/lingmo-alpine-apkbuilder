@@ -2,7 +2,7 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-    mapplauncherd-dev kscreenlocker-dev 
+    mapplauncherd-dev
     kwindowsystem5-dev
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
