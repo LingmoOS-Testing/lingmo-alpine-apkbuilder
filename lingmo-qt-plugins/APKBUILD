@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-qt-plugins
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtbase-dev
+"
 depends_dev=""
 pkgdesc="Unify Qt application style of LingmoOS."
 pkgrel=0
