@@ -7,6 +7,7 @@ depends="
     kdecoration-dev
     kwindowsystem5-dev
     kconfig5-dev
+    kconfigwidgets5-dev
     qt5-qtbase-dev
 "
 depends_dev=""
