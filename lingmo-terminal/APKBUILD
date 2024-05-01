@@ -1,7 +1,12 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-terminal
 arch="x86_64"
-depends=""
+depends="
+    qt5-declarative-dev
+    qt5-qtbase-dev
+    qt5-qtquickcontrols2-dev
+    qt5-qtx11extras-dev
+"
 depends_dev=""
 pkgdesc="Terminal emulator using LingmoUI as interface style on LingmoOS."
 pkgrel=0
