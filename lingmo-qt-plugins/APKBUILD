@@ -2,7 +2,16 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-knotifications5-dev
+
+kconfig5-dev
+kcoreaddons5-dev
+knotifications5
+kwindowsystem5-dev
+libcanberra-dev
+phonon-dev
+qt5-qtbase-dev
+qt5-qtspeech-dev
+qt5-qtx11extras-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
