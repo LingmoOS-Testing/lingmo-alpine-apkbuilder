@@ -4,6 +4,7 @@ arch="x86_64"
 depends="
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
+    qt5-qtx11extras-dev
 "
 depends_dev=""
 pkgdesc="Unify Qt application style of LingmoOS."
