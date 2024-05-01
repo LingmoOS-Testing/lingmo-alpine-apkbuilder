@@ -46,7 +46,6 @@ jobs:
     
     - name: Check
       run: |
-        sudo apt install tree
         sudo tree ~/rootfs/alpine-latest-x86_64/home/runner/packages -H packages -o dirpkg.html
       shell: bash
 
