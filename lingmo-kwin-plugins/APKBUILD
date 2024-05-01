@@ -1,7 +1,7 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-kwin-plugins
 arch="x86_64"
-depends="lingmo-kwin"
+depends="kwin=5.93-r0"
 depends_dev=""
 pkgdesc="KWin plugin for LingmoOS, which is a necessary component of LingmoOS"
 pkgrel=0
@@ -9,12 +9,12 @@ pkgver=1.1.0-dev1
 makedepends=""
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/Intro-iu/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
+source="https://github.com/LingmoOS-Testing/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
 
 build() {
     echo "Compiling $pkgname"
     mkdir -pv "$srcdir/$pkgname/build" && cd "$srcdir/$pkgname/build"
-    cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=/usr/lib ..
+    cmake -DCMAKE_INSTALL_PREFIX=/usr ..
     make -j4 || return 1
 }
 
