@@ -2,7 +2,7 @@
 pkgname=lingmo-kwin-plugins
 arch="x86_64"
 depends="
-    kwin
+    kwin-dev
     kcoreaddons5-dev
     kdecoration-dev
     kwindowsystem5-dev
