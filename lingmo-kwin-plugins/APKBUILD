@@ -5,11 +5,11 @@ depends="kwin=5.93-r0"
 depends_dev=""
 pkgdesc="KWin plugin for LingmoOS, which is a necessary component of LingmoOS"
 pkgrel=0
-pkgver=1.1.0-dev1
+pkgver=1.1.0
 makedepends=""
 url="https://lingmo.org"
 license="GPL"
-source="https://github.com/LingmoOS-Testing/$pkgname/releases/download/v$pkgver/$pkgname.tar.xz"
+source="https://github.com/LingmoOS-Testing/$pkgname/releases/download/v$pkgver-dev1/$pkgname.tar.xz"
 
 build() {
     echo "Compiling $pkgname"
