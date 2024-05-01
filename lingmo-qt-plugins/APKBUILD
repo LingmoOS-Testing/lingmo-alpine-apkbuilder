@@ -4,8 +4,6 @@ arch="x86_64"
 depends="
 
 qt6-qtbase-dev
-qt6-qtdeclarative-dev
-
     kwindowsystem5-dev
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
