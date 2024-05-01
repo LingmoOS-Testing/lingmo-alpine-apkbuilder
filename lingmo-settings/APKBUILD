@@ -2,6 +2,7 @@
 pkgname=lingmo-settings
 arch="x86_64"
 depends="
+    modemmanager-qt5-dev 
     networkmanager-qt5-dev 
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
