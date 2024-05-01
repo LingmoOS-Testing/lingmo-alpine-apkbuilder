@@ -11,11 +11,11 @@ depends="
     qt5-qtx11extras-dev
     qt5-qttools-dev
 
-libxcomposite-dev
-libxdamage-dev
-libxext-dev
 libxfixes-dev
+libxi-dev
 libxinerama-dev
+libxkbcommon-dev
+libxrandr-dev
 "
 depends_dev=""
 pkgdesc="The system settings application for LingmoOS uses LingmoUI as the interface style."
