@@ -17,7 +17,7 @@ jobs:
     - name: Setup
       uses: jirutka/setup-alpine@v1
       with:
-        branch: 3.19
+        branch: v3.19
         packages: >
           doas abuild git wget make extra-cmake-modules 
 
