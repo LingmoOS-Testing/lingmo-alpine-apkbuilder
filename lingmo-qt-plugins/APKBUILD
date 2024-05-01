@@ -2,7 +2,14 @@
 pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
-xcb-util-keysyms-dev
+elogind-dev
+kcmutils5-dev
+kcrash5-dev
+kdeclarative5-dev
+kglobalaccel5-dev
+ki18n5-dev
+kidletime5-dev
+knotifications5-dev
 
     kwindowsystem5-dev
     qt5-qtbase-dev
