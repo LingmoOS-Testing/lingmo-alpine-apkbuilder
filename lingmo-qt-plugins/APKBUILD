@@ -3,7 +3,13 @@ pkgname=lingmo-qt-plugins
 arch="x86_64"
 depends="
 
-qt6-qtbase-dev
+xcb-util-cursor-dev
+xcb-util-dev
+xcb-util-image-dev
+xcb-util-keysyms-dev
+xcb-util-renderutil-dev
+xcb-util-wm-dev
+
     kwindowsystem5-dev
     qt5-qtbase-dev
     qt5-qtquickcontrols2-dev
