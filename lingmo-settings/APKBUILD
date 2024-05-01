@@ -12,8 +12,7 @@ depends="
     qt5-qttools-dev
     
     
-harfbuzz-dev
-libb2-dev
+glib-dev
 "
 depends_dev=""
 pkgdesc="The system settings application for LingmoOS uses LingmoUI as the interface style."
