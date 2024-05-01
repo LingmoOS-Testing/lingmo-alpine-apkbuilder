@@ -4,6 +4,7 @@ arch="x86_64"
 depends="
     kwin
     qt5-qtbase-dev
+    kcoreaddons5-dev
 "
 depends_dev=""
 pkgdesc="KWin plugin for LingmoOS, which is a necessary component of LingmoOS"
