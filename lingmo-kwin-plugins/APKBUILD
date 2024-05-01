@@ -1,7 +1,10 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-kwin-plugins
 arch="x86_64"
-depends="kwin"
+depends="
+    kwin
+    qt5-qtbase-dev
+"
 depends_dev=""
 pkgdesc="KWin plugin for LingmoOS, which is a necessary component of LingmoOS"
 pkgrel=0
