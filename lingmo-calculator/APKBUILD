@@ -2,6 +2,7 @@
 pkgname=lingmo-calculator
 arch="x86_64"
 depends="
+    qt5-qttools-dev
     qt5-qtquickcontrols2-dev
 "
 depends_dev=""
