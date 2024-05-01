@@ -3,6 +3,7 @@ pkgname=lingmo-screenshots
 arch="x86_64"
 depends="
     qt5-qtbase-dev
+    qt5-qtquickcontrols2-dev
 "
 depends_dev=""
 pkgdesc="Screen locker of LingmoOS."
