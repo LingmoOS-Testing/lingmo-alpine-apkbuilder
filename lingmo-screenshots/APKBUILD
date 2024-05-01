@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-screenshots
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtquickcontrols2-dev
+"
 depends_dev=""
 pkgdesc="Screenshot tool for LingmoOS."
 pkgrel=0
