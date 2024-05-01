@@ -1,7 +1,9 @@
 # Maintainer: Intro <intro-iu@outlook.com>
 pkgname=lingmo-settings
 arch="x86_64"
-depends=""
+depends="
+    qt5-qtbase-dev
+"
 depends_dev=""
 pkgdesc="The system settings application for LingmoOS uses LingmoUI as the interface style."
 pkgrel=0
