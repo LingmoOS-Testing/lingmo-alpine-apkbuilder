@@ -43,11 +43,6 @@ jobs:
           ls -la /home/runner/packages/lingmo-alpine-apkbuilder/x86_64/
         done < pkgs
       shell: alpine.sh {0}
-    
-    - name: Check
-      run: |
-        sudo tree ~/rootfs/alpine-latest-x86_64/home/runner/packages -H packages -o dirpkg.html
-      shell: bash
 
     - name: Release
       uses: softprops/action-gh-release@v1
@@ -55,7 +50,5 @@ jobs:
         tag_name: v1.0.0
         name: Release
         files: |
-          dirpkg.html
-          /home/runner/rootfs/alpine-latest-x86_64/etc/apk/keys/runner-*.rsa.pub
           /home/runner/rootfs/alpine-latest-x86_64/home/runner/packages/lingmo-alpine-apkbuilder/x86_64/*.apk
       
