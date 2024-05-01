@@ -12,12 +12,6 @@ depends="
     qt5-qttools-dev
     
     
-cups-dev
-dbus-dev
-double-conversion-dev
-eudev-dev
-fontconfig-dev
-freetype-dev
 glib-dev
 gtk+3.0-dev
 harfbuzz-dev
