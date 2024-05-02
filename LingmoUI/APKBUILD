@@ -2,7 +2,7 @@
 pkgname=LingmoUI
 arch="x86_64"
 depends="
-    libxcb-dev
+    libxcb
     kwindowsystem5-dev
     qt5-qtquickcontrols2-dev
     qt5-qtx11extras-dev 
