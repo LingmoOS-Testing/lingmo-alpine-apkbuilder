@@ -59,4 +59,5 @@ jobs:
         files: |
           dirpkg.html
           /home/runner/rootfs/alpine-v3.19-x86_64/home/runner/packages/lingmo-alpine-apkbuilder/x86_64/*.apk
+          /home/runner/rootfs/alpine-v3.19-x86_64/home/runner/packages/lingmo-alpine-apkbuilder/x86_64/packages.tar.xz
       
