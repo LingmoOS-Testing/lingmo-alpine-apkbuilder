@@ -48,7 +48,7 @@ jobs:
       run: |
         sudo apt install tree
         sudo tree ~/rootfs/alpine-v3.19-x86_64/home/runner/packages -H packages -o dirpkg.html
-        tar -cJf packages.tar.xz ~/rootfs/alpine-v3.19-x86_64/home/runner/packages
+        tar -cJf packages.tar.xz ~/rootfs/alpine-v3.19-x86_64/home/runner/packages/*
       shell: bash
 
     - name: Release
